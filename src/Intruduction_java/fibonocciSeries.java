@@ -15,10 +15,17 @@ public class fibonocciSeries {
 			System.out.print(num1 + " " + num2 + " ");
 		} else {
 			System.out.print(num1 + " " + num2 + " ");
-			for (int i = 1; i < number - 1;i++) {
+//			for (int i = 1; i < number - 1;i++) {
+//				int nextnum = num1 + num2;
+//				System.out.print( " "+ nextnum);
+//				num1= num2;
+//				num2 = nextnum; 
+//			}
+			
+			for(int i = 3; i <= number;i++) {
 				int nextnum = num1 + num2;
-				System.out.print( " "+ nextnum);
-				num1= num2;
+				System.out.print(" " + nextnum);
+				num1 = num2;
 				num2 = nextnum;
 			}
 		}
