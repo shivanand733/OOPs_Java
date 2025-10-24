@@ -7,9 +7,15 @@ public class shiv {
 	String lastName;
 	
 	public shiv(int id,String firstName,String lastName) {
-		this.id = id;
-		this.firstName = firstName;
-		this.lastName = lastName;
+		this.id = 438;
+		this.firstName = "Shalivahan";
+		this.lastName = "Kumbar";
+	}
+	
+	public shiv(shiv ref) {
+		this.id = ref.id;
+		this.firstName = ref.firstName;
+		this.lastName = ref.lastName;
 	}
 	
 	public shiv() {
