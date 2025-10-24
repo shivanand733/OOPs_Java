@@ -12,4 +12,13 @@ public class shiv {
 		this.lastName = lastName;
 	}
 	
+	public shiv() {
+		id = 123;
+		firstName = "Shivanand";
+		lastName = "Kumbar";
+	}
+	
+	public void disp() {
+		System.out.println("id " + id + " First Name: " + firstName + " Last Name: " + lastName);
+	}
 }
