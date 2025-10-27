@@ -1,6 +1,6 @@
 package inhertance;
 
-public class shiv1 {
+public class shiv1 extends shiv{
 
 	String c;
 	String d;
