@@ -1,8 +1,23 @@
 package Agreegation;
 
 public class Univercity {
-	public static void main(String[] args) {
 	
-		propessor  pr = new Univercity();
+		//create  the agrigation and composation
+		
+		//composition
+		classRoom cr = new classRoom(101, "ECE 101");
+		
+		//Aggregation
+		professor pref;
+		
+	public void classRoomDetails() {
+		System.out.println(cr.getNo());
+		System.out.println(cr.getType());
 	}
+	
+	public void professorDetails() {
+		System.out.println(pref.getName());
+		System.out.println(pref.getSub());
+	}
+	
 }

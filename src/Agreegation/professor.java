@@ -1,11 +1,11 @@
 package Agreegation;
 
-public class propessor {
+public class professor {
 
 	private String name;
 	private String sub;
 	
-	public propessor(String name, String sub) {
+	public professor(String name, String sub) {
 		this.name = name;
 		this.sub = sub;
 	}
