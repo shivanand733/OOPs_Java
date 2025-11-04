@@ -10,6 +10,9 @@ public class Univercity {
 		//Aggregation
 		professor pref;
 		
+		//composation 
+		belagavi b1 = new belagavi(180,"belagavi sp");
+		
 	public void classRoomDetails() {
 		System.out.println(cr.getNo());
 		System.out.println(cr.getType());
@@ -20,4 +23,8 @@ public class Univercity {
 		System.out.println(pref.getSub());
 	}
 	
+	public void train() {
+		System.out.println(b1.getTrincost());
+		System.out.println(b1.getTrainName());
+	}
 }

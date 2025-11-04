@@ -10,5 +10,6 @@ public static void main(String[] args) {
 	
 	vtu.classRoomDetails();
 	vtu.professorDetails();
+	vtu.train();
 }
 }
