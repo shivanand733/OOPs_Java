@@ -2,7 +2,11 @@ package Agreegation;
 
 public class flay {
 
-	public void permit(plane ref) {
-		
+	public static void permit(plane ref) {
+		ref.takeUp();
+		ref.play();
+		ref.land();
+		System.out.println();
 	}
+
 }
