@@ -1,7 +1,6 @@
 package Agreegation;
 
-public class Teacher {
-
+public class Maths extends Teacher{
 	public void takeAttedence() {
 		System.out.println("Teacher take the Attendence");
 	}
