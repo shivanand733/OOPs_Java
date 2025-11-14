@@ -1,6 +1,6 @@
 package AbstractClasses;
 
-public class kasrtBsu extends Bus{
+public class ksrtcBus extends Bus{
 @Override
 public void busRoute() {
 	// TODO Auto-generated method stub
