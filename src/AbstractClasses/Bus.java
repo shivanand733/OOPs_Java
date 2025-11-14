@@ -4,6 +4,9 @@ abstract public class Bus {
 	private int busId;
 	private String busName;
 	
+	public abstract void busRoute();	// long route or short route 
+	public abstract void busType(); 	//sleeper bus orn sitting 
+	
 	public Bus() {
 		//default constructor 
 	}
