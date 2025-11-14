@@ -2,10 +2,10 @@ package AbstractClasses;
 
 public class BusApp {
 public static void main(String[] args) {
-
-	shiv sh = new shiv();
-	sh.info(new ksrtcBus());
-	sh.info(new privateBus());
+	//ecah new type of the "bus" requred one line of the code is enough
+	shiv.info(new ksrtcBus());	
+	shiv.info(new privateBus());	
+	
 	
 
 }
