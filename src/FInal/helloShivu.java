@@ -5,6 +5,8 @@ public class helloShivu {
         System.out.println("This is the call the one class to another class ");
     }
 public static void main(String[] args) {
-    
+
+    helloShivu hello = new helloShivu();
+    hello.Shivu();
 }
 }
